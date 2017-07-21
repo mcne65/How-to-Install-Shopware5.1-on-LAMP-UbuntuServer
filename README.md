@@ -26,6 +26,10 @@ sed -i "s/upload_max_filesize = .*/upload_max_filesize = 100M/" /etc/php/7.0/fpm
 sed -i "s/post_max_size = .*/post_max_size = 100M/" /etc/php/7.0/fpm/php.ini
 ``` 
 
+Enable Apache 2 mod_rewrite: `a2enmod rewrite`
+Put changes in effect restarting Apache: `service apache2 restart` 
+
+
 Now that you've installed the php mods we can install other stuff we'll need such as: 
 
 [ant](http://ant.apache.org/) : `sudo apt-get install ant`
