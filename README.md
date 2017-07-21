@@ -143,3 +143,7 @@ Finally restart these services in order for everything above to be updated:
 
 `service apache2 restart ; service mysql restart ; service php7.0-fpm restart` 
 
+Done guys! Now just fire **yourdomain.com/backend** in your browser and have fun!
+
+________________________________________________________________
+ 
